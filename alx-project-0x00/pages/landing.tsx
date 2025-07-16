@@ -11,7 +11,7 @@ const Landing: React.FC =  () => {
 export default Landing
 
 import React from "react";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
@@ -34,6 +34,7 @@ const Landing: React.FC = () => {
         <Button title="Large Rounded-sm" styles="text-lg px-6 py-3 rounded-sm" />
         <Button title="Large Rounded-md" styles="text-lg px-6 py-3 rounded-md" />
         <Button title="Large Rounded-full" styles="text-lg px-6 py-3 rounded-full" />
+        <Button title="Large Rounded-lg" styles="text-lg px-6 py-3 rounded-lg" />
       </div>
     </div>
   );
