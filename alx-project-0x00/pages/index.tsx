@@ -1,1 +1,1 @@
-
+["const Home: React.FC = () => {"]
